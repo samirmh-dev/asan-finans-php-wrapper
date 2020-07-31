@@ -2,15 +2,15 @@
 
 # Asan Finans wrapper
 
-[![License](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/license)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+[![License](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/license)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper) [![Dependents](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/dependents)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper) [![Suggesters](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/suggesters)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+
 [![Latest Stable Version](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/v)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+
 [![Daily Downloads](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/d/daily)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
 [![Monthly Downloads](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/d/monthly)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
 [![Total Downloads](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/downloads)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+
 [![composer.lock](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/composerlock)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
-[![Dependents](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/dependents)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
-[![Suggesters](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/suggesters)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
-[![.gitattributes](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/gitattributes)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
 
 ### Possible Methods
 
