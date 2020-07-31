@@ -1,0 +1,32 @@
+{
+  "name": "samirmh-dev/asan-finans-php-wrapper",
+  "description": "PHP wrapper for AsanFinans service API",
+  "homepage": "https://github.com/samirmh-dev/asan-finans-php-wrapper",
+  "keywords": [
+    "asan finans",
+    "asan finance",
+    "php",
+    "asan xidmet",
+    "fin",
+    "voen",
+    "passport"
+  ],
+  "authors": [
+    {
+      "name": "Samir Mammadhasanov",
+      "email": "hello@samirmh.dev"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "^6.5",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AsanFinance\\": "src"
+    }
+  }
+}
