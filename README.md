@@ -1,3 +1,17 @@
+![Image of social preview](https://user-images.githubusercontent.com/54883542/89041200-07d0e400-d356-11ea-9176-bf70a748d7f6.png)
+
+# Asan Finans wrapper
+
+[![Latest Stable Version](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/v/stable)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+[![License](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/license)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+
+[![Total Downloads](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/downloads)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+[![Monthly Downloads](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/d/monthly)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+[![Daily Downloads](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/d/daily)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+
+[![composer.lock](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/composerlock)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+[![Latest Unstable Version](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/v/unstable)](https://packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
+
 ### Possible Methods
 
 ````php
@@ -151,7 +165,7 @@ You will get response something like this:
 # don't pay attention to this response. I just used `var_dump`. Use can use any operation you want.
 array(1) {
   ["fin"]=>
-  string(7) "12s3456"
+  string(7) "XXXXXXX"
 }
 array(2) {
   ["code"]=>
