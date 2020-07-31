@@ -12,47 +12,52 @@
 
 [![composer.lock](https://poser.pugx.org/samirmh-dev/asan-finans-php-wrapper/composerlock)](//packagist.org/packages/samirmh-dev/asan-finans-php-wrapper)
 
-### Possible Methods
+`base_uri` and `key` removed for security reasons.
+
+### Install:
+`compose require samirmh-dev/asan-finans-php-wrapper` 
+
+### Available Methods:
 
 ````php
 # Get all possible information of person by FIN
-public function getPersonInfoByFin(string $fin) : string;
+public function getAllPersonInfoByFin(string $fin) : string
 
 # Get current balance information
-public function getEmployeeInfoByFin(string $fin) : string;
+public function getBalanceInfo(string $startTimeStamp, string $endTimeStamp) : string
 
 # Get DMX information by FIN
-public function getBalanceInfo(string $startTimeStamp, string $endTimeStamp) : string;
+public function getDmxInfoByFin(string $fin) : string
 
 # Get current and inactive employee information by FIN
-public function getPassportInfoByFin(string $fin) : string;
+public function getEmployeeInfoByFin(string $fin) : string
 
 # Get Farming information by FIN
-public function getDmxInfoByFin(string $fin) : string;
+public function getFarmInfoByFin(string $fin) : string
 
 # Get Farming information by TaxPayerNumber
-public function getLegalPersonInfoByTaxPayerNumber(string $taxPayerNumber) : string;
+public function getFarmInfoByTaxPayerNumber(string $taxPayerNumber) : string
 
 # Get Legal person information by his/her/its TaxPayerNumber
-public function getPersonInfoByVin(string $vin) : string;
+public function getLegalPersonInfoByTaxPayerNumber(string $taxPayerNumber) : string
 
 # Get international passport information by FIN
-public function getAllPersonInfoByFin(string $fin) : string;
+public function getPassportInfoByFin(string $fin) : string
 
 # Get pension information by FIN
-public function getPensionInfoByFin(string $fin) : string;
+public function getPensionInfoByFin(string $fin) : string
 
 # Get some personal information by FIN
-public function getFarmInfoByFin(string $fin) : string;
+public function getPersonInfoByFin(string $fin) : string
 
 # Get foreign person info by his/her VIN
-public function getFarmInfoByTaxPayerNumber(string $taxPayerNumber) : string;
+public function getPersonInfoByVin(string $vin) : string
 
 # Get QHT information by TaxPayerNumber
-public function getQhtInfoByTaxPayerNumber(string $taxPayerNumber) : string;
+public function getQhtInfoByTaxPayerNumber(string $taxPayerNumber) : string
 ````
 
-### Usage
+### Usage:
 
 Example:
 
@@ -70,7 +75,7 @@ $handler = new \AsanFinance\Request();
 $info = $handler->getPersonInfoByFin('XXXXXXX');
 ````
 
-### Fail and Success callbacks
+### Fail and Success callbacks:
 
 You can pass your own function to run when requests fails or run when request is success.
 
