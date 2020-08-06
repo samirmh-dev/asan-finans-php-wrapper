@@ -39,7 +39,7 @@ trait Requestable {
 
             $this->checkResponse($body);
         }catch (BaseException $e) {
-            return $this->response(['response'=>serialize($body)], $e->getMessage(), $e->getCode(), FALSE);
+            return $this->response(['response'=>$body->toArray()], $e->getMessage(), $e->getCode(), FALSE);
         }
 
         return $this->response($body->Response);
