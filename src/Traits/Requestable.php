@@ -20,7 +20,7 @@ trait Requestable {
      *
      * @return mixed|string
      */
-    public function send(string $endpoint, array $body = [], string $method = 'get'):string {
+    public function send(string $endpoint, array $body = [], string $method = 'get') : string {
         $method = strtolower($method);
 
         $this->request = $body;
@@ -39,7 +39,7 @@ trait Requestable {
 
             $this->checkResponse($body);
         }catch (BaseException $e) {
-            return $this->response(['response'=>$body->toArray()], $e->getMessage(), $e->getCode(), FALSE);
+            return $this->response(['response' => (array) $body], $e->getMessage(), $e->getCode(), FALSE);
         }
 
         return $this->response($body->Response);
