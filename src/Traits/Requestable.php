@@ -42,7 +42,7 @@ trait Requestable {
             return $this->response(['response' => (array) $body], $e->getMessage(), $e->getCode(), FALSE);
         }
 
-        return $this->response($body->Response);
+        return $this->response((array)$body->Response);
     }
 
     /**
