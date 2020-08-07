@@ -59,7 +59,7 @@ trait Requestable {
         if(empty($body->Response)) throw new MalformedResponseException('Missing `Response` key on response');
         if(empty($body->Status)) throw new MalformedResponseException('Missing `Status` key on response');
         if(empty($body->Status->Name)) throw new MalformedResponseException('Missing `Status->Name` key on response');
-        if(empty($body->Status->Code) || !is_int($body->Status->Code)) throw new MalformedResponseException('Missing `Status->Code` key on response');
+        if(empty($body->Status->Code)) throw new MalformedResponseException('Missing `Status->Code` key on response');
 
         if($body->Status->Code === self::SUCCESSFULLY_RESPONSE_CODE && $body->Status->Name === self::SUCCESSFULLY_RESPONSE_MESSAGE) return;
 
