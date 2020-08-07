@@ -43,8 +43,8 @@ class Request extends BaseRequest {
         }
 
         return $this->send('api/v1/balance', [
-            'StartDate' => date($startTimeStamp),
-            'EndDate'   => date($endTimeStamp)
+            'StartDate' => date('Y-m-d H:i:s',$startTimeStamp),
+            'EndDate'   => date('Y-m-d H:i:s',$endTimeStamp)
         ], 'post');
     }
 
